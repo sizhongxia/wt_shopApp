@@ -9,6 +9,10 @@
   "author": "wangting",
   "license": "ISC",
   "dependencies": {
+    "egg": "^2.2.0",
     "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.7"
   }
 }
