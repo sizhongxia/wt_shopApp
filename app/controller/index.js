@@ -7,7 +7,7 @@ class IndexController extends Controller {
 
   async login() {
 
-  	const data = await this.ctx.service.index.login('wt', '123');
+  	const data = await this.ctx.service.index.login('wt0', '123');
 
   	console.info(data);
 
