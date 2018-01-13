@@ -1,3 +1,30 @@
 body{
-	font-size: 30px;
+
 }
+.m-header{position: fixed; top:0;left: 0;right: 0;width: 100%;z-index: 999; height: 42px;line-height: 42px; background-color: #f8f8f8;}
+.m-header ul{display: flex;height: 42px;}
+.m-header > ul li{flex:1;}
+.adr-choose{margin-left: 20px;}
+.m-header > ul li:last-of-type{text-align: right;}
+.cart{ margin-right: 15px; }
+.list-btn{margin-right: 20px;}
+
+.slider{margin-top: 42px;}
+
+.m-cake-show{ padding: 25px 15px;font-size: 12px;background: #fff;}
+.m-cake-show > a{display: block;float: left; width: 47%;margin-bottom: 25px;}
+.m-cake-show > a:nth-of-type(odd){margin-right: 3%;}
+.m-cake-show > a:nth-of-type(even){margin-left: 3%;}
+.m-cake-show img{width: 100%;}
+.m-cake-show figcaption{margin-top: 20px;}
+.m-cake-show i{font-size: 9px;}
+.m-cake-brief-left p:last-of-type{font-size: 9px;}
+
+.bot-nav{position: fixed; bottom:0; left: 0;right: 0;width: 100%;z-index: 999; height: 30px;line-height: 30px; background-color: #fff;}
+.bot-nav ul{display: flex;}
+.bot-nav li{ flex: 1;text-align: center;}
+.bot-nav i{font-size: 9px;}
+
+/* 修改轮播图样式 */
+.swiper-pagination-bullet{background: rgb(255,255,255);opacity: .5;}
+.swiper-pagination-bullet-active{background-color: #d3b145;}

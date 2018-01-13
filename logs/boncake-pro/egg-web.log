@@ -1,0 +1,14 @@
+2018-01-13 21:22:53,424 INFO 9712 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\wangting\\Documents\\GitHub\\wt_shopApp\\logs\\boncake-pro","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"boncake-pro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-13 21:22:53,452 INFO 9712 [egg-schedule]: register schedule C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-13 21:22:53,452 INFO 9712 [egg-schedule]: register schedule C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-13 21:22:53,493 INFO 9712 [egg-static] starting static serve /public/ -> C:\Users\wangting\Documents\GitHub\wt_shopApp\app\public
+2018-01-13 21:22:53,495 INFO 9712 [egg-security] use csrf middleware
+2018-01-13 21:22:53,496 INFO 9712 [egg-security] use methodnoallow middleware
+2018-01-13 21:22:53,497 INFO 9712 [egg-security] use noopen middleware
+2018-01-13 21:22:53,497 INFO 9712 [egg-security] use nosniff middleware
+2018-01-13 21:22:53,498 INFO 9712 [egg-security] use xssProtection middleware
+2018-01-13 21:22:53,498 INFO 9712 [egg-security] use xframe middleware
+2018-01-13 21:22:53,498 INFO 9712 [egg-security] use dta middleware
+2018-01-13 21:22:53,498 INFO 9712 [egg-security] compose 7 middlewares into one security middleware
+2018-01-13 21:22:53,527 INFO 9712 [egg-watcher:app] watcher start success
+2018-01-13 21:23:09,894 INFO 9712 [egg-view-nunjucks] loading templates from ["C:\\Users\\wangting\\Documents\\GitHub\\wt_shopApp\\app\\view"]
