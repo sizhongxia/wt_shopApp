@@ -17,6 +17,10 @@ class IndexController extends Controller {
 
     await this.ctx.render('index/regist.html',{});
   }
+  async ucenter() {
+
+    await this.ctx.render('index/ucenter.html',{});
+  }
 }
 
 module.exports = IndexController;
