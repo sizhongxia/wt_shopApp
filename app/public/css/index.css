@@ -11,7 +11,7 @@ body{
 
 .slider{margin-top: 42px;}
 
-.m-cake-show{ padding: 25px 15px;font-size: 12px;background: #fff;}
+.m-cake-show{ padding: 25px 15px 40px;font-size: 12px;background: #fff;}
 .m-cake-show > a{display: block;float: left; width: 47%;margin-bottom: 25px;}
 .m-cake-show > a:nth-of-type(odd){margin-right: 3%;}
 .m-cake-show > a:nth-of-type(even){margin-left: 3%;}
