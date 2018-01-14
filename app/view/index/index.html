@@ -54,26 +54,13 @@
     <section class="slider">
         <div class="swiper-container m-slider-con">
             <div class="swiper-wrapper">
+                {% for item in mBannerList %}
                 <div class="swiper-slide">
-                    <a   href="http://www.shagualicai.cn/8756" data-str="10.aHR0cDovL3d3dy5zaGFndWFsaWNhaS5jbi84NzU2.0">
-                        <img src="http://www.boncake.com.cn/public/images/59/44/c6/c3e35ac303b08d0389ee2aa385c75d976aecff7c.jpg?1515658334#w" style="width: 100%" />
+                    <a alt="{{ item.title }}" href="{{ item.url }}">
+                        <img src="{{ item.src }}" style="width: 100%" />
                     </a>
                 </div>
-                <div class="swiper-slide">
-                    <a   href="http://m.shagualicai.cn/topic/m0717livingspread" data-str="10.aHR0cDovL20uc2hhZ3VhbGljYWkuY24vdG9waWMvbTA3MTdsaXZpbmdzcHJlYWQ=.0">
-                        <img src="http://www.boncake.com.cn/public/images/24/fd/89/1a1dab9e529a25e4287479563522c8371ed57570.jpg?1513952879#w" style="width: 100%" />
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a data-str="7..399" >
-                        <img src="http://www.boncake.com.cn/public/images/9b/47/01/c70806dc5b4a02c7fa30a2877f5333a0d45aa5ee.jpg?1501039048#w" style="width: 100%" />
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a   href="http://m.shagualicai.cn/topic/m0717livingspread" data-str="10.aHR0cDovL20uc2hhZ3VhbGljYWkuY24vdG9waWMvbTA3MTdsaXZpbmdzcHJlYWQ=.0">
-                        <img src="http://www.boncake.com.cn/public/images/92/c3/a8/0055d7ec566562b8472b9637b1bbae38de88b477.jpg?1515166438#w" style="width: 100%" />
-                    </a>
-                </div>
+                {% endfor %}
             </div>
             <div class="swiper-pagination"></div>
         </div>
