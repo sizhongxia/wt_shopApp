@@ -1,1 +1,10 @@
 2018-01-14 13:18:06,981 ERROR 11944 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-01-14 18:35:18,871 ERROR 9176 nodejs.ClusterClientNoResponseError: client no response in 5256615ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 9176
+hostname: DESKTOP-KVPLAT1
+

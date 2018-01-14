@@ -455,3 +455,4 @@
 2018-01-14 13:34:40,820 INFO 3760 [egg-security] compose 7 middlewares into one security middleware
 2018-01-14 13:34:40,836 INFO 3760 [egg-watcher:app] watcher start success
 2018-01-14 13:34:43,403 INFO 3760 [egg-view-nunjucks] loading templates from ["C:\\Users\\wangting\\Documents\\GitHub\\wt_shopApp\\app\\view"]
+2018-01-14 18:35:18,858 WARN 3760 [ClusterClient:Watcher] follower closed, and try to init it again
