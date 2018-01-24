@@ -10,16 +10,42 @@ body{
 .list-btn{margin-right: 20px;}
 
 .slider{margin-top: 42px;}
-
-.m-cake-show{ padding: 25px 15px 40px;font-size: 12px;background: #fff;}
+/* 蛋糕中间展示 */
+.m-cake-show{ padding: 25px 15px 40px;background: #fff;/*font-size: 12px;*/}
 .m-cake-show > a{display: block;float: left; width: 47%;margin-bottom: 25px;}
 .m-cake-show > a:nth-of-type(odd){margin-right: 3%;}
 .m-cake-show > a:nth-of-type(even){margin-left: 3%;}
 .m-cake-show img{width: 100%;}
 .m-cake-show figcaption{margin-top: 20px;}
-.m-cake-show i{font-size: 9px;}
-.m-cake-brief-left p:last-of-type{font-size: 9px;}
-
+.m-cake-brief{ position: relative; }
+.m-cake-brief-right{position: absolute;right: 0;bottom: 0;}
+/*.m-cake-show i{font-size: 9px;}*/
+/*.m-cake-brief-left p:last-of-type{font-size: 9px;}*/
+@media only screen and (min-width: 320PX) and (max-width: 360PX){
+	.mc-fs12{font-size:12px;}
+	.mc-fs9{font-size:9px;}
+}
+@media only screen and (min-width: 360PX) and (max-width: 375PX){
+	.mc-fs12{font-size:12px;}
+	.mc-fs9{font-size:9px;}
+}
+@media only screen and (min-width: 375PX) and (max-width: 390PX){
+	.mc-fs12{font-size:13px;}
+	.mc-fs9{font-size:10px;}
+}
+@media only screen and (min-width: 390PX) and (max-width: 414PX){
+	.mc-fs12{font-size:13px;}
+	.mc-fs9{font-size:10px;}
+}
+@media only screen and (min-width: 414PX) and (max-width: 640PX){
+	.mc-fs12{font-size:14px;}
+	.mc-fs9{font-size:11px;}
+}
+@media screen and (min-width: 640px){
+	.mc-fs12{font-size:20px;}
+	.mc-fs9{font-size:18px;}
+}
+/* 底部导航 */
 .bot-nav{position: fixed; bottom:0; left: 0;right: 0;width: 100%;z-index: 999; height: 30px;line-height: 30px; background-color: #fff;}
 .bot-nav ul{display: flex;}
 .bot-nav li{ flex: 1;text-align: center;}

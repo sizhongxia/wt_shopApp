@@ -8,3 +8,37 @@ name: 'ClusterClientNoResponseError'
 pid: 9176
 hostname: DESKTOP-KVPLAT1
 
+2018-01-24 10:00:12,977 ERROR 14768 [-/127.0.0.1/-/2ms GET /index] nodejs.Template render error: (C:\Users\wangting\Documents\GitHub\wt_shopApp\app\view\index\index.html) [Line 45, Column 36]
+  unknown block tag: city
+  unknown block tag: city
+    at Object.exports.prettifyError (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\lib.js:34:15)
+    at new_cls.render (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:472:27)
+    at C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:313:35
+    at createTemplate (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:235:25)
+    at handle (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:250:25)
+    at C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:264:21
+    at next (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\lib.js:207:13)
+    at Object.exports.asyncIter (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\lib.js:214:5)
+    at NunjucksEnvironment.getTemplate (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:243:17)
+    at NunjucksEnvironment.render (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:305:14)
+name: 'Template render error'
+pid: 14768
+hostname: DESKTOP-KVPLAT1
+
+2018-01-24 10:00:15,103 ERROR 14768 [-/127.0.0.1/-/1ms GET /index] nodejs.Template render error: (C:\Users\wangting\Documents\GitHub\wt_shopApp\app\view\index\index.html) [Line 45, Column 36]
+  unknown block tag: city
+  unknown block tag: city
+    at Object.exports.prettifyError (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\lib.js:34:15)
+    at new_cls.render (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:472:27)
+    at C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:313:35
+    at createTemplate (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:235:25)
+    at handle (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:250:25)
+    at C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:264:21
+    at next (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\lib.js:207:13)
+    at Object.exports.asyncIter (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\lib.js:214:5)
+    at NunjucksEnvironment.getTemplate (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:243:17)
+    at NunjucksEnvironment.render (C:\Users\wangting\Documents\GitHub\wt_shopApp\node_modules\nunjucks\src\environment.js:305:14)
+name: 'Template render error'
+pid: 14768
+hostname: DESKTOP-KVPLAT1
+

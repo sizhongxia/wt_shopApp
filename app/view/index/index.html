@@ -24,6 +24,7 @@
 
     <script src="http://static.91fool.com.cn/public/js/jquery-1.11.3/jquery.min.js"></script>
     <script src="http://static.91fool.com.cn/mobile/js/lib/swiper/swiper-3.3.1.jquery.min.js"></script>
+    <script src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
 
     <style>
         .m-slider-con {
@@ -33,12 +34,18 @@
         }
         .m-slider-con img{ width: 100%; }
     </style>
+    <script>
+    $(function () {
+        var city = remote_ip_info['city'];
+        $('.adr-choose').text(city);
+    });
+    </script>
 </head>
 <body>
 <header class="m-header">
     <ul>
         <li>
-            <a class="adr-choose">北京</a>
+            <a class="adr-choose"></a>
         </li>
         <li>
             <img class="logo" height="42px" src="http://www.boncake.com.cn/public/images/90/16/1d/e8a4ab3a97c359b6da71d79ec53e82ea3d232a76.jpg?1511332049#w" />
@@ -49,6 +56,7 @@
         </li>
     </ul>
 </header>
+
 <main>
     <!-- banner轮播图 top -->
     <section class="slider">
@@ -67,16 +75,16 @@
     </section>
     <!-- banner轮播图 end -->
     <!-- 首页产品展示 top -->
-    <section class="m-cake-show f-cb">
+    <section class="m-cake-show f-cb mc-fs12">
         <a>
             <figure>
                 <img src="http://www.boncake.com.cn/public/images/eb/1f/cb/6175815533f904973740a96633833f39eca0f5dd.jpg?1498814532#h" />
                 <figcaption class="m-cake-brief f-cb">
                     <div class="m-cake-brief-left f-fl f-tal">
                         <p>爱情小镇</p>
-                        <p>Town of Love</p>
+                        <p class="mc-fs9">Town of Love</p>
                     </div>
-                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i>7寸</i></span>
+                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i  class="mc-fs9">7寸</i></span>
                 </figcaption>
             </figure>
         </a>
@@ -86,9 +94,9 @@
                 <figcaption class="m-cake-brief f-cb">
                     <div class="m-cake-brief-left f-fl f-tal">
                         <p>爱情小镇</p>
-                        <p>Town of Love</p>
+                        <p class="mc-fs9">Town of Love</p>
                     </div>
-                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i>7寸</i></span>
+                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i  class="mc-fs9">7寸</i></span>
                 </figcaption>
             </figure>
         </a>
@@ -98,9 +106,9 @@
                 <figcaption class="m-cake-brief f-cb">
                     <div class="m-cake-brief-left f-fl f-tal">
                         <p>爱情小镇</p>
-                        <p>Town of Love</p>
+                        <p class="mc-fs9">Town of Love</p>
                     </div>
-                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i>7寸</i></span>
+                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i  class="mc-fs9">7寸</i></span>
                 </figcaption>
             </figure>
         </a>
@@ -110,9 +118,9 @@
                 <figcaption class="m-cake-brief f-cb">
                     <div class="m-cake-brief-left f-fl f-tal">
                         <p>爱情小镇</p>
-                        <p>Town of Love</p>
+                        <p class="mc-fs9">Town of Love</p>
                     </div>
-                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i>7寸</i></span>
+                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i  class="mc-fs9">7寸</i></span>
                 </figcaption>
             </figure>
         </a>
@@ -122,9 +130,9 @@
                 <figcaption class="m-cake-brief f-cb">
                     <div class="m-cake-brief-left f-fl f-tal">
                         <p>爱情小镇</p>
-                        <p>Town of Love</p>
+                        <p class="mc-fs9">Town of Love</p>
                     </div>
-                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i>7寸</i></span>
+                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i  class="mc-fs9">7寸</i></span>
                 </figcaption>
             </figure>
         </a>
@@ -134,9 +142,9 @@
                 <figcaption class="m-cake-brief f-cb">
                     <div class="m-cake-brief-left f-fl f-tal">
                         <p>爱情小镇</p>
-                        <p>Town of Love</p>
+                        <p class="mc-fs9">Town of Love</p>
                     </div>
-                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i>7寸</i></span>
+                    <span class="m-cake-brief-right f-fr f-tar"><em>标</em><i>￥</i>318/<i  class="mc-fs9">7寸</i></span>
                 </figcaption>
             </figure>
         </a>
